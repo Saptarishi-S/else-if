@@ -1,0 +1,47 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["Hello there", "Good morning", "Hi, how are you?", "Hey!", "Greetings and salutations", "Top of the morning to you",
+      "Howdy, partner", "What's cracking?", "Yo!", "Hey, what's up?", "Morning!", "Hiya!", "How's it going?", "Hi, friend", "Well met", "Hey there, sunshine",
+      "Aloha!", "Hola!", "Hey, beautiful", "Hi, stranger", "Hey, champ", "Hey, gorgeous", "How's life treating you?", "Bonjour!", "Salutations!", "Hey, pal",
+      "What's the good word?", "Hello, world", "How's your day?", "Hey, buddy", "Hi, cutie", "Good day, mate", "Hi, my love", "Hey, smarty pants",
+      "What's cookin', good lookin'?", "Greetings, Earthling", "Hi, rockstar", "Hey, sunshine", "How's the weather?", "Hello, lovely", "Hi, sweetie",
+      "Hey, genius", "Greetings, my friend", "Hi, superstar", "Hey, adventurer", "How's your journey?", "Hello, awesome one", "Hi, my study partner",
+      "Hey, cool cat", "Greetings, fellow traveler"],
+    "bot_response": "Hello there",
+    "required_words": []
+  },
+  {
+    "response_type":"greeting",
+    "user_input":["how", "are", "you"],
+    "bot_response": "I'm fine, how about you?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["Goodbye!", "Have a great day!",
+      "Take care!", "See you later!", "Farewell!", "Until next time!", "Catch you on the flip side!", "Bye for now!", "Have a wonderful time!", "Be well!",
+      "Goodbye, friend!", "Stay safe!", "Adios!", "Until we meet again!", "Wishing you all the best!", "Safe travels!", "Take it easy!", "So long!", "Fare thee well!",
+      "Peace out!", "It's been a pleasure!", "Goodbye, sunshine!", "Keep smiling!", "Till we cross paths again!", "Cheers!", "Time to bid adieu!",
+      "May our paths cross soon!", "Parting is such sweet sorrow!", "Goodbye, my love!", "Until the next adventure!", "Until the next chapter!", "Fond farewell!",
+      "Keep in touch!", "Ciao for now!", "Goodbye, genius!", "Wishing you happiness!", "Bon voyage!", "Take good care of yourself!", "Saying goodbye with a smile!",
+      "May your journey be pleasant!", "Stay awesome!", "See you in the near future!", "In the words of the Terminator, 'I'll be back.'", "Goodbye, partner in crime!",
+      "Till our next escapade!", "Don't be a stranger!", "Keep rocking!", "Until next time, cool cat!", "Travel safely, fellow traveler!", "Keep shining!",
+      "Take care, adventurer!", "Farewell, my friend!"],
+    "bot_response": "See you later! Hope you enjoyed learning",
+    "required_words": []
+  },
+  //Learning computer
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps", "Algorithm", "Variable", "Function", "Loop", "Conditional statement", "Array", "String",
+      "Integer", "Boolean", "Debugging", "Syntax", "Compilation", "Interpreter", "Compiler", "IDE (Integrated Development Environment)", "Version control",
+      "Git", "GitHub", "Repository", "Branch", "Merge", "Pull request", "Bug", "Error handling", "Object-oriented", "Class", "Method", "Inheritance", "Polymorphism",
+      "Encapsulation", "Abstraction", "Interface", "API (Application Programming Interface)", "Library", "Framework", "Database", "SQL (Structured Query Language)",
+      "Front-end", "Back-end", "HTML", "CSS", "JavaScript", "Responsive design", "DOM (Document Object Model)", "HTTP (Hypertext Transfer Protocol)", "RESTful API",
+      "JSON (JavaScript Object Notation)", "Debugging", "Recursion", "Binary", "Binary search"],
+    "bot_response": "Start by typing: '{user_input}",
+    "required_words": ["learn", "code"]
+  },
+
+]
