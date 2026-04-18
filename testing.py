@@ -8,7 +8,7 @@ from prompt_enhance import enhancer
 load_dotenv()
 
 # api_key = os.getenv('API_KEY')
-api_key = "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"
+api_key = "API_KEY_REP"
 model = "claude-v1.3-100k"
 conversation_history = ""
 
